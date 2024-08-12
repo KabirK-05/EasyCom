@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480030032C4D925C00DD7614 /* EasyTalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480030022C4D925C00DD7614 /* EasyTalkApp.swift */; };
+		480030052C4D925C00DD7614 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480030042C4D925C00DD7614 /* ContentView.swift */; };
+		480030072C4D926000DD7614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480030062C4D926000DD7614 /* Assets.xcassets */; };
+		4800300A2C4D926000DD7614 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480030092C4D926000DD7614 /* Preview Assets.xcassets */; };
+		480030142C4D926000DD7614 /* EasyTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480030132C4D926000DD7614 /* EasyTalkTests.swift */; };
+		4800301E2C4D926000DD7614 /* EasyTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4800301D2C4D926000DD7614 /* EasyTalkUITests.swift */; };
+		480030202C4D926000DD7614 /* EasyTalkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4800301F2C4D926000DD7614 /* EasyTalkUITestsLaunchTests.swift */; };
+		484E440A2C62B991003C7417 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484E44092C62B991003C7417 /* TopBarView.swift */; };
+		4850DFC12C641163008ACBB8 /* InputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4850DFC02C641163008ACBB8 /* InputTextField.swift */; };
+		488775F42C65D987003625DE /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488775F32C65D987003625DE /* ChatController.swift */; };
+		488775F62C69320F003625DE /* PresetButtonScripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488775F52C69320F003625DE /* PresetButtonScripts.swift */; };
+		4896B2F52C608B3200949EE1 /* ColoursToUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4896B2F42C608B3200949EE1 /* ColoursToUse.swift */; };
+		4896B2F72C60929600949EE1 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4896B2F62C60929600949EE1 /* NavBar.swift */; };
+		4896B2F92C61ECE600949EE1 /* TestPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4896B2F82C61ECE600949EE1 /* TestPages.swift */; };
+		4896B2FB2C62A41100949EE1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4896B2FA2C62A41100949EE1 /* HomeView.swift */; };
+		4896B2FD2C62A53900949EE1 /* RouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4896B2FC2C62A53900949EE1 /* RouteView.swift */; };
+		4896B2FF2C62A97C00949EE1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4896B2FE2C62A97C00949EE1 /* SettingsView.swift */; };
+		48BA31F42C65BE9E005052D9 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 48BA31F32C65BE9E005052D9 /* OpenAI */; };
+		48C69B8B2C5C1C7F0097F01E /* Neumorphic in Frameworks */ = {isa = PBXBuildFile; productRef = 48C69B8A2C5C1C7F0097F01E /* Neumorphic */; };
+		48F3A4072C5EF0C70013E060 /* GeneratedTextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F3A4062C5EF0C70013E060 /* GeneratedTextBox.swift */; };
+		48F3A4092C5EF9F10013E060 /* PresetBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F3A4082C5EF9F10013E060 /* PresetBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		480030102C4D926000DD7614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48002FF72C4D925C00DD7614 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48002FFE2C4D925C00DD7614;
+			remoteInfo = EasyTalk;
+		};
+		4800301A2C4D926000DD7614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48002FF72C4D925C00DD7614 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48002FFE2C4D925C00DD7614;
+			remoteInfo = EasyTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48002FFF2C4D925C00DD7614 /* EasyTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		480030022C4D925C00DD7614 /* EasyTalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyTalkApp.swift; sourceTree = "<group>"; };
+		480030042C4D925C00DD7614 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		480030062C4D926000DD7614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		480030092C4D926000DD7614 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4800300F2C4D926000DD7614 /* EasyTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		480030132C4D926000DD7614 /* EasyTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyTalkTests.swift; sourceTree = "<group>"; };
+		480030192C4D926000DD7614 /* EasyTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4800301D2C4D926000DD7614 /* EasyTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyTalkUITests.swift; sourceTree = "<group>"; };
+		4800301F2C4D926000DD7614 /* EasyTalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyTalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		484E44092C62B991003C7417 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		4850DFC02C641163008ACBB8 /* InputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextField.swift; sourceTree = "<group>"; };
+		488775F32C65D987003625DE /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		488775F52C69320F003625DE /* PresetButtonScripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetButtonScripts.swift; sourceTree = "<group>"; };
+		4896B2F42C608B3200949EE1 /* ColoursToUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoursToUse.swift; sourceTree = "<group>"; };
+		4896B2F62C60929600949EE1 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		4896B2F82C61ECE600949EE1 /* TestPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPages.swift; sourceTree = "<group>"; };
+		4896B2FA2C62A41100949EE1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4896B2FC2C62A53900949EE1 /* RouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
+		4896B2FE2C62A97C00949EE1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		48F3A4062C5EF0C70013E060 /* GeneratedTextBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedTextBox.swift; sourceTree = "<group>"; };
+		48F3A4082C5EF9F10013E060 /* PresetBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48002FFC2C4D925C00DD7614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BA31F42C65BE9E005052D9 /* OpenAI in Frameworks */,
+				48C69B8B2C5C1C7F0097F01E /* Neumorphic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4800300C2C4D926000DD7614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480030162C4D926000DD7614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48002FF62C4D925C00DD7614 = {
+			isa = PBXGroup;
+			children = (
+				480030012C4D925C00DD7614 /* EasyTalk */,
+				480030122C4D926000DD7614 /* EasyTalkTests */,
+				4800301C2C4D926000DD7614 /* EasyTalkUITests */,
+				480030002C4D925C00DD7614 /* Products */,
+				48BA31F22C65BE9E005052D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		480030002C4D925C00DD7614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48002FFF2C4D925C00DD7614 /* EasyTalk.app */,
+				4800300F2C4D926000DD7614 /* EasyTalkTests.xctest */,
+				480030192C4D926000DD7614 /* EasyTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		480030012C4D925C00DD7614 /* EasyTalk */ = {
+			isa = PBXGroup;
+			children = (
+				488775F22C65D95E003625DE /* Backend */,
+				480030022C4D925C00DD7614 /* EasyTalkApp.swift */,
+				48F3A4052C5EF0A60013E060 /* Views */,
+				480030062C4D926000DD7614 /* Assets.xcassets */,
+				480030082C4D926000DD7614 /* Preview Content */,
+			);
+			path = EasyTalk;
+			sourceTree = "<group>";
+		};
+		480030082C4D926000DD7614 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				480030092C4D926000DD7614 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		480030122C4D926000DD7614 /* EasyTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				480030132C4D926000DD7614 /* EasyTalkTests.swift */,
+			);
+			path = EasyTalkTests;
+			sourceTree = "<group>";
+		};
+		4800301C2C4D926000DD7614 /* EasyTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4800301D2C4D926000DD7614 /* EasyTalkUITests.swift */,
+				4800301F2C4D926000DD7614 /* EasyTalkUITestsLaunchTests.swift */,
+			);
+			path = EasyTalkUITests;
+			sourceTree = "<group>";
+		};
+		488775F22C65D95E003625DE /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				488775F32C65D987003625DE /* ChatController.swift */,
+				488775F52C69320F003625DE /* PresetButtonScripts.swift */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		48BA31F22C65BE9E005052D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48F3A4052C5EF0A60013E060 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				480030042C4D925C00DD7614 /* ContentView.swift */,
+				48F3A4062C5EF0C70013E060 /* GeneratedTextBox.swift */,
+				48F3A4082C5EF9F10013E060 /* PresetBar.swift */,
+				4896B2F42C608B3200949EE1 /* ColoursToUse.swift */,
+				4896B2F62C60929600949EE1 /* NavBar.swift */,
+				4896B2F82C61ECE600949EE1 /* TestPages.swift */,
+				4896B2FA2C62A41100949EE1 /* HomeView.swift */,
+				4896B2FC2C62A53900949EE1 /* RouteView.swift */,
+				4896B2FE2C62A97C00949EE1 /* SettingsView.swift */,
+				484E44092C62B991003C7417 /* TopBarView.swift */,
+				4850DFC02C641163008ACBB8 /* InputTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48002FFE2C4D925C00DD7614 /* EasyTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480030232C4D926000DD7614 /* Build configuration list for PBXNativeTarget "EasyTalk" */;
+			buildPhases = (
+				48002FFB2C4D925C00DD7614 /* Sources */,
+				48002FFC2C4D925C00DD7614 /* Frameworks */,
+				48002FFD2C4D925C00DD7614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyTalk;
+			packageProductDependencies = (
+				48C69B8A2C5C1C7F0097F01E /* Neumorphic */,
+				48BA31F32C65BE9E005052D9 /* OpenAI */,
+			);
+			productName = EasyTalk;
+			productReference = 48002FFF2C4D925C00DD7614 /* EasyTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4800300E2C4D926000DD7614 /* EasyTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480030262C4D926000DD7614 /* Build configuration list for PBXNativeTarget "EasyTalkTests" */;
+			buildPhases = (
+				4800300B2C4D926000DD7614 /* Sources */,
+				4800300C2C4D926000DD7614 /* Frameworks */,
+				4800300D2C4D926000DD7614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480030112C4D926000DD7614 /* PBXTargetDependency */,
+			);
+			name = EasyTalkTests;
+			productName = EasyTalkTests;
+			productReference = 4800300F2C4D926000DD7614 /* EasyTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		480030182C4D926000DD7614 /* EasyTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480030292C4D926000DD7614 /* Build configuration list for PBXNativeTarget "EasyTalkUITests" */;
+			buildPhases = (
+				480030152C4D926000DD7614 /* Sources */,
+				480030162C4D926000DD7614 /* Frameworks */,
+				480030172C4D926000DD7614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4800301B2C4D926000DD7614 /* PBXTargetDependency */,
+			);
+			name = EasyTalkUITests;
+			productName = EasyTalkUITests;
+			productReference = 480030192C4D926000DD7614 /* EasyTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48002FF72C4D925C00DD7614 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					48002FFE2C4D925C00DD7614 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					4800300E2C4D926000DD7614 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 48002FFE2C4D925C00DD7614;
+					};
+					480030182C4D926000DD7614 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 48002FFE2C4D925C00DD7614;
+					};
+				};
+			};
+			buildConfigurationList = 48002FFA2C4D925C00DD7614 /* Build configuration list for PBXProject "EasyTalk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48002FF62C4D925C00DD7614;
+			packageReferences = (
+				48C69B892C5C1C7F0097F01E /* XCRemoteSwiftPackageReference "neumorphic" */,
+				4850DFC22C65BC8C008ACBB8 /* XCRemoteSwiftPackageReference "OpenAI" */,
+			);
+			productRefGroup = 480030002C4D925C00DD7614 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48002FFE2C4D925C00DD7614 /* EasyTalk */,
+				4800300E2C4D926000DD7614 /* EasyTalkTests */,
+				480030182C4D926000DD7614 /* EasyTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48002FFD2C4D925C00DD7614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4800300A2C4D926000DD7614 /* Preview Assets.xcassets in Resources */,
+				480030072C4D926000DD7614 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4800300D2C4D926000DD7614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480030172C4D926000DD7614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48002FFB2C4D925C00DD7614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4896B2F52C608B3200949EE1 /* ColoursToUse.swift in Sources */,
+				488775F62C69320F003625DE /* PresetButtonScripts.swift in Sources */,
+				480030052C4D925C00DD7614 /* ContentView.swift in Sources */,
+				48F3A4072C5EF0C70013E060 /* GeneratedTextBox.swift in Sources */,
+				4896B2F92C61ECE600949EE1 /* TestPages.swift in Sources */,
+				4850DFC12C641163008ACBB8 /* InputTextField.swift in Sources */,
+				48F3A4092C5EF9F10013E060 /* PresetBar.swift in Sources */,
+				4896B2FF2C62A97C00949EE1 /* SettingsView.swift in Sources */,
+				488775F42C65D987003625DE /* ChatController.swift in Sources */,
+				4896B2FB2C62A41100949EE1 /* HomeView.swift in Sources */,
+				480030032C4D925C00DD7614 /* EasyTalkApp.swift in Sources */,
+				484E440A2C62B991003C7417 /* TopBarView.swift in Sources */,
+				4896B2FD2C62A53900949EE1 /* RouteView.swift in Sources */,
+				4896B2F72C60929600949EE1 /* NavBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4800300B2C4D926000DD7614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480030142C4D926000DD7614 /* EasyTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480030152C4D926000DD7614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480030202C4D926000DD7614 /* EasyTalkUITestsLaunchTests.swift in Sources */,
+				4800301E2C4D926000DD7614 /* EasyTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		480030112C4D926000DD7614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48002FFE2C4D925C00DD7614 /* EasyTalk */;
+			targetProxy = 480030102C4D926000DD7614 /* PBXContainerItemProxy */;
+		};
+		4800301B2C4D926000DD7614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48002FFE2C4D925C00DD7614 /* EasyTalk */;
+			targetProxy = 4800301A2C4D926000DD7614 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		480030212C4D926000DD7614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		480030222C4D926000DD7614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		480030242C4D926000DD7614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EasyTalk/Preview Content\"";
+				DEVELOPMENT_TEAM = C34KGDSWZS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KabirKumar.EasyTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		480030252C4D926000DD7614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EasyTalk/Preview Content\"";
+				DEVELOPMENT_TEAM = C34KGDSWZS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KabirKumar.EasyTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		480030272C4D926000DD7614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C34KGDSWZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KabirKumar.EasyTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyTalk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EasyTalk";
+			};
+			name = Debug;
+		};
+		480030282C4D926000DD7614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C34KGDSWZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KabirKumar.EasyTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyTalk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EasyTalk";
+			};
+			name = Release;
+		};
+		4800302A2C4D926000DD7614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C34KGDSWZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KabirKumar.EasyTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyTalk;
+			};
+			name = Debug;
+		};
+		4800302B2C4D926000DD7614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C34KGDSWZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KabirKumar.EasyTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48002FFA2C4D925C00DD7614 /* Build configuration list for PBXProject "EasyTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480030212C4D926000DD7614 /* Debug */,
+				480030222C4D926000DD7614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480030232C4D926000DD7614 /* Build configuration list for PBXNativeTarget "EasyTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480030242C4D926000DD7614 /* Debug */,
+				480030252C4D926000DD7614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480030262C4D926000DD7614 /* Build configuration list for PBXNativeTarget "EasyTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480030272C4D926000DD7614 /* Debug */,
+				480030282C4D926000DD7614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480030292C4D926000DD7614 /* Build configuration list for PBXNativeTarget "EasyTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4800302A2C4D926000DD7614 /* Debug */,
+				4800302B2C4D926000DD7614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4850DFC22C65BC8C008ACBB8 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+		48C69B892C5C1C7F0097F01E /* XCRemoteSwiftPackageReference "neumorphic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/costachung/neumorphic/";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		48BA31F32C65BE9E005052D9 /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4850DFC22C65BC8C008ACBB8 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+		48C69B8A2C5C1C7F0097F01E /* Neumorphic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48C69B892C5C1C7F0097F01E /* XCRemoteSwiftPackageReference "neumorphic" */;
+			productName = Neumorphic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 48002FF72C4D925C00DD7614 /* Project object */;
+}
